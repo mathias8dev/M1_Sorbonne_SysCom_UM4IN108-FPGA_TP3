@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP2/project/project.runs/impl_1'
+HD_PWD='/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -38,7 +38,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
-EAStep vivado -log TP2_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source TP2_wrapper.tcl -notrace
+/bin/touch .init_design.begin.rst
+EAStep vivado -log TP3_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source TP3_wrapper.tcl -notrace
 
 

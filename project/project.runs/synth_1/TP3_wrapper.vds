@@ -1,0 +1,327 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Feb 13 15:30:15 2026
+# Process ID         : 119343
+# Current directory  : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1
+# Command line       : vivado -log TP3_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TP3_wrapper.tcl
+# Log file           : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/TP3_wrapper.vds
+# Journal file       : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/vivado.jou
+# Running On         : genesis
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : Intel(R) Core(TM) i7-14700HX
+# CPU Frequency      : 800.243 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 33338 MB
+# Swap memory        : 78350 MB
+# Total Virtual      : 111688 MB
+# Available Virtual  : 91345 MB
+#-----------------------------------------------------------
+source TP3_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/ip_repo/my_led_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/mathias8dev/vivado/2025.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.srcs/utils_1/imports/synth_1/TP2_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.srcs/utils_1/imports/synth_1/TP2_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top TP3_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 119418
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2235.281 ; gain = 478.117 ; free physical = 5679 ; free virtual = 85884
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TP3_wrapper' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/hdl/TP3_wrapper.vhd:24]
+INFO: [Synth 8-3491] module 'TP3' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:531' bound to instance 'TP3_i' of component 'TP3' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/hdl/TP3_wrapper.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'TP3' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:544]
+INFO: [Synth 8-3491] module 'TP3_clk_wiz_1_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_clk_wiz_1_0_stub.vhdl:6' bound to instance 'clk_wiz_1' of component 'TP3_clk_wiz_1_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:929]
+INFO: [Synth 8-638] synthesizing module 'TP3_clk_wiz_1_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_clk_wiz_1_0_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'TP3_mdm_1_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_mdm_1_0_stub.vhdl:6' bound to instance 'mdm_1' of component 'TP3_mdm_1_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:936]
+INFO: [Synth 8-638] synthesizing module 'TP3_mdm_1_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_mdm_1_0_stub.vhdl:28]
+INFO: [Synth 8-3491] module 'TP3_microblaze_0_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_microblaze_0_0_stub.vhdl:6' bound to instance 'microblaze_0' of component 'TP3_microblaze_0_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:949]
+INFO: [Synth 8-638] synthesizing module 'TP3_microblaze_0_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_microblaze_0_0_stub.vhdl:70]
+INFO: [Synth 8-3491] module 'TP3_microblaze_0_axi_intc_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_microblaze_0_axi_intc_0_stub.vhdl:6' bound to instance 'microblaze_0_axi_intc' of component 'TP3_microblaze_0_axi_intc_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:1035]
+INFO: [Synth 8-638] synthesizing module 'TP3_microblaze_0_axi_intc_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_microblaze_0_axi_intc_0_stub.vhdl:43]
+INFO: [Synth 8-3491] module 'TP3_microblaze_0_axi_periph_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_microblaze_0_axi_periph_0_stub.vhdl:6' bound to instance 'microblaze_0_axi_periph' of component 'TP3_microblaze_0_axi_periph_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:1064]
+INFO: [Synth 8-638] synthesizing module 'TP3_microblaze_0_axi_periph_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_microblaze_0_axi_periph_0_stub.vhdl:96]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_M9XM02' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:41]
+INFO: [Synth 8-3491] module 'TP3_dlmb_bram_if_cntlr_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_dlmb_bram_if_cntlr_0_stub.vhdl:6' bound to instance 'dlmb_bram_if_cntlr' of component 'TP3_dlmb_bram_if_cntlr_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'TP3_dlmb_bram_if_cntlr_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_dlmb_bram_if_cntlr_0_stub.vhdl:38]
+INFO: [Synth 8-3491] module 'TP3_dlmb_v10_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_dlmb_v10_0_stub.vhdl:6' bound to instance 'dlmb_v10' of component 'TP3_dlmb_v10_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:267]
+INFO: [Synth 8-638] synthesizing module 'TP3_dlmb_v10_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_dlmb_v10_0_stub.vhdl:43]
+INFO: [Synth 8-3491] module 'TP3_ilmb_bram_if_cntlr_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_ilmb_bram_if_cntlr_0_stub.vhdl:6' bound to instance 'ilmb_bram_if_cntlr' of component 'TP3_ilmb_bram_if_cntlr_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:295]
+INFO: [Synth 8-638] synthesizing module 'TP3_ilmb_bram_if_cntlr_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_ilmb_bram_if_cntlr_0_stub.vhdl:38]
+INFO: [Synth 8-3491] module 'TP3_ilmb_v10_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_ilmb_v10_0_stub.vhdl:6' bound to instance 'ilmb_v10' of component 'TP3_ilmb_v10_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:349]
+INFO: [Synth 8-638] synthesizing module 'TP3_ilmb_v10_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_ilmb_v10_0_stub.vhdl:43]
+INFO: [Synth 8-3491] module 'TP3_lmb_bram_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_lmb_bram_0_stub.vhdl:6' bound to instance 'lmb_bram' of component 'TP3_lmb_bram_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:377]
+INFO: [Synth 8-638] synthesizing module 'TP3_lmb_bram_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_lmb_bram_0_stub.vhdl:34]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_M9XM02' (0#1) [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:41]
+INFO: [Synth 8-3491] module 'TP3_my_led_0_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_my_led_0_0_stub.vhdl:6' bound to instance 'my_led_0' of component 'TP3_my_led_0_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:1169]
+INFO: [Synth 8-638] synthesizing module 'TP3_my_led_0_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_my_led_0_0_stub.vhdl:38]
+INFO: [Synth 8-3491] module 'TP3_rst_clk_wiz_1_100M_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_rst_clk_wiz_1_100M_0_stub.vhdl:6' bound to instance 'rst_clk_wiz_1_100M' of component 'TP3_rst_clk_wiz_1_100M_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:1194]
+INFO: [Synth 8-638] synthesizing module 'TP3_rst_clk_wiz_1_100M_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_rst_clk_wiz_1_100M_0_stub.vhdl:28]
+INFO: [Synth 8-3491] module 'TP3_boutons_0' declared at '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_boutons_0_stub.vhdl:6' bound to instance 'sw' of component 'TP3_boutons_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:1207]
+INFO: [Synth 8-638] synthesizing module 'TP3_boutons_0' [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/.Xil/Vivado-119343-genesis/realtime/TP3_boutons_0_stub.vhdl:39]
+INFO: [Synth 8-256] done synthesizing module 'TP3' (0#1) [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/synth/TP3.vhd:544]
+INFO: [Synth 8-256] done synthesizing module 'TP3_wrapper' (0#1) [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/hdl/TP3_wrapper.vhd:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2330.250 ; gain = 573.086 ; free physical = 5569 ; free virtual = 85775
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2330.250 ; gain = 573.086 ; free physical = 5569 ; free virtual = 85775
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2330.250 ; gain = 573.086 ; free physical = 5569 ; free virtual = 85775
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2330.250 ; gain = 0.000 ; free physical = 5569 ; free virtual = 85774
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_microblaze_0_0/TP3_microblaze_0_0/TP2_microblaze_0_0_in_context.xdc] for cell 'TP3_i/microblaze_0'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_microblaze_0_0/TP3_microblaze_0_0/TP2_microblaze_0_0_in_context.xdc] for cell 'TP3_i/microblaze_0'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_dlmb_v10_0/TP3_dlmb_v10_0/TP2_ilmb_v10_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_dlmb_v10_0/TP3_dlmb_v10_0/TP2_ilmb_v10_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_ilmb_v10_0/TP3_ilmb_v10_0/TP2_ilmb_v10_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_ilmb_v10_0/TP3_ilmb_v10_0/TP2_ilmb_v10_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_dlmb_bram_if_cntlr_0/TP3_dlmb_bram_if_cntlr_0/TP2_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_dlmb_bram_if_cntlr_0/TP3_dlmb_bram_if_cntlr_0/TP2_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_ilmb_bram_if_cntlr_0/TP3_ilmb_bram_if_cntlr_0/TP2_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_ilmb_bram_if_cntlr_0/TP3_ilmb_bram_if_cntlr_0/TP2_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_lmb_bram_0/TP3_lmb_bram_0/TP3_lmb_bram_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_lmb_bram_0/TP3_lmb_bram_0/TP3_lmb_bram_0_in_context.xdc] for cell 'TP3_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_microblaze_0_axi_periph_0/TP3_microblaze_0_axi_periph_0/TP3_microblaze_0_axi_periph_0_in_context.xdc] for cell 'TP3_i/microblaze_0_axi_periph'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_microblaze_0_axi_periph_0/TP3_microblaze_0_axi_periph_0/TP3_microblaze_0_axi_periph_0_in_context.xdc] for cell 'TP3_i/microblaze_0_axi_periph'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_microblaze_0_axi_intc_0/TP3_microblaze_0_axi_intc_0/TP3_microblaze_0_axi_intc_0_in_context.xdc] for cell 'TP3_i/microblaze_0_axi_intc'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_microblaze_0_axi_intc_0/TP3_microblaze_0_axi_intc_0/TP3_microblaze_0_axi_intc_0_in_context.xdc] for cell 'TP3_i/microblaze_0_axi_intc'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_mdm_1_0/TP3_mdm_1_0/TP2_mdm_1_0_in_context.xdc] for cell 'TP3_i/mdm_1'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_mdm_1_0/TP3_mdm_1_0/TP2_mdm_1_0_in_context.xdc] for cell 'TP3_i/mdm_1'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_clk_wiz_1_0/TP3_clk_wiz_1_0/TP3_clk_wiz_1_0_in_context.xdc] for cell 'TP3_i/clk_wiz_1'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_clk_wiz_1_0/TP3_clk_wiz_1_0/TP3_clk_wiz_1_0_in_context.xdc] for cell 'TP3_i/clk_wiz_1'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_rst_clk_wiz_1_100M_0/TP3_rst_clk_wiz_1_100M_0/TP2_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'TP3_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_rst_clk_wiz_1_100M_0/TP3_rst_clk_wiz_1_100M_0/TP2_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'TP3_i/rst_clk_wiz_1_100M'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_boutons_0/TP3_boutons_0/TP3_boutons_0_in_context.xdc] for cell 'TP3_i/sw'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_boutons_0/TP3_boutons_0/TP3_boutons_0_in_context.xdc] for cell 'TP3_i/sw'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_my_led_0_0/TP3_my_led_0_0/TP3_my_led_0_0_in_context.xdc] for cell 'TP3_i/my_led_0'
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_my_led_0_0/TP3_my_led_0_0/TP3_my_led_0_0_in_context.xdc] for cell 'TP3_i/my_led_0'
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.srcs/constrs_1/new/Basys-3-Master.xdc]
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.srcs/constrs_1/new/Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.srcs/constrs_1/new/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TP3_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TP3_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2377.902 ; gain = 0.000 ; free physical = 5562 ; free virtual = 85768
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2377.938 ; gain = 0.000 ; free physical = 5562 ; free virtual = 85768
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'TP3_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2377.938 ; gain = 620.773 ; free physical = 5555 ; free virtual = 85784
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2385.906 ; gain = 628.742 ; free physical = 5555 ; free virtual = 85784
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2385.906 ; gain = 628.742 ; free physical = 5555 ; free virtual = 85783
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.srcs/utils_1/imports/synth_1/TP2_wrapper.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2385.906 ; gain = 628.742 ; free physical = 5552 ; free virtual = 85782
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2385.906 ; gain = 628.742 ; free physical = 5552 ; free virtual = 85782
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2385.906 ; gain = 628.742 ; free physical = 5552 ; free virtual = 85782
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2385.906 ; gain = 628.742 ; free physical = 5553 ; free virtual = 85787
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2490.906 ; gain = 733.742 ; free physical = 5372 ; free virtual = 85663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2490.906 ; gain = 733.742 ; free physical = 5372 ; free virtual = 85663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2500.922 ; gain = 743.758 ; free physical = 5366 ; free virtual = 85657
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2687.734 ; gain = 930.570 ; free physical = 5192 ; free virtual = 85485
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2687.734 ; gain = 930.570 ; free physical = 5192 ; free virtual = 85485
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2687.734 ; gain = 930.570 ; free physical = 5192 ; free virtual = 85485
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2687.734 ; gain = 930.570 ; free physical = 5192 ; free virtual = 85485
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2687.734 ; gain = 930.570 ; free physical = 5192 ; free virtual = 85485
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2687.734 ; gain = 930.570 ; free physical = 5192 ; free virtual = 85485
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |TP3_clk_wiz_1_0               |         1|
+|2     |TP3_mdm_1_0                   |         1|
+|3     |TP3_microblaze_0_0            |         1|
+|4     |TP3_microblaze_0_axi_intc_0   |         1|
+|5     |TP3_microblaze_0_axi_periph_0 |         1|
+|6     |TP3_my_led_0_0                |         1|
+|7     |TP3_rst_clk_wiz_1_100M_0      |         1|
+|8     |TP3_boutons_0                 |         1|
+|9     |TP3_dlmb_bram_if_cntlr_0      |         1|
+|10    |TP3_dlmb_v10_0                |         1|
+|11    |TP3_ilmb_bram_if_cntlr_0      |         1|
+|12    |TP3_ilmb_v10_0                |         1|
+|13    |TP3_lmb_bram_0                |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------+------+
+|      |Cell                               |Count |
++------+-----------------------------------+------+
+|1     |TP3_boutons_0_bbox                 |     1|
+|2     |TP3_clk_wiz_1_0_bbox               |     1|
+|3     |TP3_dlmb_bram_if_cntlr_0_bbox      |     1|
+|4     |TP3_dlmb_v10_0_bbox                |     1|
+|5     |TP3_ilmb_bram_if_cntlr_0_bbox      |     1|
+|6     |TP3_ilmb_v10_0_bbox                |     1|
+|7     |TP3_lmb_bram_0_bbox                |     1|
+|8     |TP3_mdm_1_0_bbox                   |     1|
+|9     |TP3_microblaze_0_0_bbox            |     1|
+|10    |TP3_microblaze_0_axi_intc_0_bbox   |     1|
+|11    |TP3_microblaze_0_axi_periph_0_bbox |     1|
+|12    |TP3_my_led_0_0_bbox                |     1|
+|13    |TP3_rst_clk_wiz_1_100M_0_bbox      |     1|
+|14    |IBUF                               |     5|
+|15    |OBUF                               |    16|
++------+-----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2687.734 ; gain = 930.570 ; free physical = 5192 ; free virtual = 85485
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2687.734 ; gain = 882.883 ; free physical = 5195 ; free virtual = 85488
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2687.742 ; gain = 930.570 ; free physical = 5195 ; free virtual = 85488
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2687.742 ; gain = 0.000 ; free physical = 5194 ; free virtual = 85488
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2687.742 ; gain = 0.000 ; free physical = 5371 ; free virtual = 85586
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a4e5de87
+INFO: [Common 17-83] Releasing license: Synthesis
+52 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 2687.770 ; gain = 1074.512 ; free physical = 5371 ; free virtual = 85586
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1823.415; main = 1823.415; forked = 281.562
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3380.137; main = 2687.738; forked = 994.227
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2711.746 ; gain = 0.000 ; free physical = 5370 ; free virtual = 85586
+INFO: [Common 17-1381] The checkpoint '/home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/TP3_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file TP3_wrapper_utilization_synth.rpt -pb TP3_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 13 15:30:39 2026...

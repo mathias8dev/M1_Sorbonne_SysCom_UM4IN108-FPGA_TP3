@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+// Vivado v2025.2 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+// Created on Friday February 13, 2026 - 03:28:58 pm, from:
+//
+//     Map file     - /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/TP3.bmm
+//     Data file(s) - /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/ip/TP3_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'TP3_microblaze_0.TP3_microblaze_0_local_memory_lmb_bram_32K_1_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000

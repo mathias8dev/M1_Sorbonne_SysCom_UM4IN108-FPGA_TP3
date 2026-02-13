@@ -3,46 +3,46 @@
 
 # XDC: new/Basys-3-Master.xdc
 
-# Block Designs: bd/TP2/TP2.bd
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2 || ORIG_REF_NAME==TP2} -quiet] -quiet
+# Block Designs: bd/TP3/TP3.bd
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3 || ORIG_REF_NAME==TP3} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_microblaze_0_0/TP2_microblaze_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_microblaze_0_0 || ORIG_REF_NAME==TP2_microblaze_0_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_microblaze_0_0/TP3_microblaze_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_microblaze_0_0 || ORIG_REF_NAME==TP3_microblaze_0_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_dlmb_v10_0/TP2_dlmb_v10_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_dlmb_v10_0 || ORIG_REF_NAME==TP2_dlmb_v10_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_dlmb_v10_0/TP3_dlmb_v10_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_dlmb_v10_0 || ORIG_REF_NAME==TP3_dlmb_v10_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_ilmb_v10_0/TP2_ilmb_v10_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_ilmb_v10_0 || ORIG_REF_NAME==TP2_ilmb_v10_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_ilmb_v10_0/TP3_ilmb_v10_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_ilmb_v10_0 || ORIG_REF_NAME==TP3_ilmb_v10_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_dlmb_bram_if_cntlr_0/TP2_dlmb_bram_if_cntlr_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_dlmb_bram_if_cntlr_0 || ORIG_REF_NAME==TP2_dlmb_bram_if_cntlr_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_dlmb_bram_if_cntlr_0/TP3_dlmb_bram_if_cntlr_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_dlmb_bram_if_cntlr_0 || ORIG_REF_NAME==TP3_dlmb_bram_if_cntlr_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_ilmb_bram_if_cntlr_0/TP2_ilmb_bram_if_cntlr_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_ilmb_bram_if_cntlr_0 || ORIG_REF_NAME==TP2_ilmb_bram_if_cntlr_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_ilmb_bram_if_cntlr_0/TP3_ilmb_bram_if_cntlr_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_ilmb_bram_if_cntlr_0 || ORIG_REF_NAME==TP3_ilmb_bram_if_cntlr_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_lmb_bram_0/TP2_lmb_bram_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_lmb_bram_0 || ORIG_REF_NAME==TP2_lmb_bram_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_lmb_bram_0/TP3_lmb_bram_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_lmb_bram_0 || ORIG_REF_NAME==TP3_lmb_bram_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_microblaze_0_axi_periph_0/TP2_microblaze_0_axi_periph_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_microblaze_0_axi_periph_0 || ORIG_REF_NAME==TP2_microblaze_0_axi_periph_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_microblaze_0_axi_periph_0/TP3_microblaze_0_axi_periph_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_microblaze_0_axi_periph_0 || ORIG_REF_NAME==TP3_microblaze_0_axi_periph_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_microblaze_0_axi_intc_0/TP2_microblaze_0_axi_intc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_microblaze_0_axi_intc_0 || ORIG_REF_NAME==TP2_microblaze_0_axi_intc_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_microblaze_0_axi_intc_0/TP3_microblaze_0_axi_intc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_microblaze_0_axi_intc_0 || ORIG_REF_NAME==TP3_microblaze_0_axi_intc_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_mdm_1_0/TP2_mdm_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_mdm_1_0 || ORIG_REF_NAME==TP2_mdm_1_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_mdm_1_0/TP3_mdm_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_mdm_1_0 || ORIG_REF_NAME==TP3_mdm_1_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_clk_wiz_1_0/TP2_clk_wiz_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_clk_wiz_1_0 || ORIG_REF_NAME==TP2_clk_wiz_1_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_clk_wiz_1_0/TP3_clk_wiz_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_clk_wiz_1_0 || ORIG_REF_NAME==TP3_clk_wiz_1_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_rst_clk_wiz_1_100M_0/TP2_rst_clk_wiz_1_100M_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_rst_clk_wiz_1_100M_0 || ORIG_REF_NAME==TP2_rst_clk_wiz_1_100M_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_rst_clk_wiz_1_100M_0/TP3_rst_clk_wiz_1_100M_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_rst_clk_wiz_1_100M_0 || ORIG_REF_NAME==TP3_rst_clk_wiz_1_100M_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_axi_gpio_0_0/TP2_axi_gpio_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_axi_gpio_0_0 || ORIG_REF_NAME==TP2_axi_gpio_0_0} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_boutons_0/TP3_boutons_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_boutons_0 || ORIG_REF_NAME==TP3_boutons_0} -quiet] -quiet
 
-# IP: bd/TP2/ip/TP2_axi_gpio_0_1/TP2_axi_gpio_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP2_axi_gpio_0_1 || ORIG_REF_NAME==TP2_axi_gpio_0_1} -quiet] -quiet
+# IP: bd/TP3/ip/TP3_my_led_0_0/TP3_my_led_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==TP3_my_led_0_0 || ORIG_REF_NAME==TP3_my_led_0_0} -quiet] -quiet
 
-# XDC: /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP2/project/project.gen/sources_1/bd/TP2/TP2_ooc.xdc
+# XDC: /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.gen/sources_1/bd/TP3/TP3_ooc.xdc

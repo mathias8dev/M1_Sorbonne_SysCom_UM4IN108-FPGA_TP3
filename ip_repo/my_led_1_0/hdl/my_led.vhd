@@ -9,17 +9,15 @@ entity my_led is
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 
-
 		-- Parameters of Axi Slave Bus Interface S00_AXI
 		C_S00_AXI_DATA_WIDTH	: integer	:= 32;
 		C_S00_AXI_ADDR_WIDTH	: integer	:= 4
 	);
 	port (
 		-- Users to add ports here
-
+		leds : out std_logic_vector(15 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
-
 
 		-- Ports of Axi Slave Bus Interface S00_AXI
 		s00_axi_aclk	: in std_logic;
@@ -55,6 +53,7 @@ architecture arch_imp of my_led is
 		C_S_AXI_ADDR_WIDTH	: integer	:= 4
 		);
 		port (
+		leds : out std_logic_vector(15 downto 0);
 		S_AXI_ACLK	: in std_logic;
 		S_AXI_ARESETN	: in std_logic;
 		S_AXI_AWADDR	: in std_logic_vector(C_S_AXI_ADDR_WIDTH-1 downto 0);
@@ -88,6 +87,7 @@ my_led_slave_lite_v1_0_S00_AXI_inst : my_led_slave_lite_v1_0_S00_AXI
 		C_S_AXI_ADDR_WIDTH	=> C_S00_AXI_ADDR_WIDTH
 	)
 	port map (
+		leds => leds,
 		S_AXI_ACLK	=> s00_axi_aclk,
 		S_AXI_ARESETN	=> s00_axi_aresetn,
 		S_AXI_AWADDR	=> s00_axi_awaddr,

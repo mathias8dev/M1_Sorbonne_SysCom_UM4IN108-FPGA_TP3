@@ -55,14 +55,14 @@ set_property PACKAGE_PIN L1 [get_ports {led_tri_o[15]}]
 
 ## Buttons (mapped to boutons_tri_i)
 ## Right -> boutons_tri_i[0]
-set_property PACKAGE_PIN T17 [get_ports {boutons_tri_i[0]}]
-	set_property IOSTANDARD LVCMOS33 [get_ports {boutons_tri_i[0]}]
+#set_property PACKAGE_PIN T17 [get_ports {boutons_tri_i[0]}]
+	#set_property IOSTANDARD LVCMOS33 [get_ports {boutons_tri_i[0]}]
 ## Center -> boutons_tri_i[1]
-set_property PACKAGE_PIN U18 [get_ports {boutons_tri_i[1]}]
-	set_property IOSTANDARD LVCMOS33 [get_ports {boutons_tri_i[1]}]
+#set_property PACKAGE_PIN U18 [get_ports {boutons_tri_i[1]}]
+	#set_property IOSTANDARD LVCMOS33 [get_ports {boutons_tri_i[1]}]
 ## Left -> boutons_tri_i[2]
-set_property PACKAGE_PIN W19 [get_ports {boutons_tri_i[2]}]
-	set_property IOSTANDARD LVCMOS33 [get_ports {boutons_tri_i[2]}]
+#set_property PACKAGE_PIN W19 [get_ports {boutons_tri_i[2]}]
+	#set_property IOSTANDARD LVCMOS33 [get_ports {boutons_tri_i[2]}]
 
 ## Configuration options
 set_property CONFIG_VOLTAGE 3.3 [current_design]

@@ -16,7 +16,7 @@ entity my_led_slave_lite_v1_0_S00_AXI is
 	);
 	port (
 		-- Users to add ports here
-
+		leds : out std_logic_vector(15 downto 0);
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -123,7 +123,9 @@ architecture arch_imp of my_led_slave_lite_v1_0_S00_AXI is
 	constant Wdata: std_logic_vector(1 downto 0) := "11";
 	 --State machine variables
 	signal state_read : std_logic_vector(1 downto 0);
-	signal state_write: std_logic_vector(1 downto 0); 
+	signal state_write: std_logic_vector(1 downto 0);
+
+	signal sw_state: std_logic_vector(3 downto 0);
 begin
 	-- I/O Connections assignments
 
@@ -309,7 +311,12 @@ begin
 	 (others => '0');
 
 	-- Add user logic here
+	sw_state(0) <= slv_reg0(0);
+	sw_state(1) <= slv_reg0(1);
+	sw_state(2) <= slv_reg1(0);
+	sw_state(3) <= slv_reg1(1);
 
+	L0: entity work.led port map (sw_state, leds);
 	-- User logic ends
 
 end arch_imp;

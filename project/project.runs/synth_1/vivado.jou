@@ -3,22 +3,22 @@
 # SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Fri Feb  6 10:48:13 2026
-# Process ID         : 633924
-# Current directory  : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP2/project/project.runs/synth_1
-# Command line       : vivado -log TP2_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TP2_wrapper.tcl
-# Log file           : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP2/project/project.runs/synth_1/TP2_wrapper.vds
-# Journal file       : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP2/project/project.runs/synth_1/vivado.jou
+# Start of session at: Fri Feb 13 15:30:15 2026
+# Process ID         : 119343
+# Current directory  : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1
+# Command line       : vivado -log TP3_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TP3_wrapper.tcl
+# Log file           : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/TP3_wrapper.vds
+# Journal file       : /home/mathias8dev/VivadoProjects/M1_Sorbonne_SysCom_UM4IN108-FPGA_TP3/project/project.runs/synth_1/vivado.jou
 # Running On         : genesis
 # Platform           : Ubuntu
-# Operating System   : Ubuntu 24.04.3 LTS
+# Operating System   : Ubuntu 24.04.4 LTS
 # Processor Detail   : Intel(R) Core(TM) i7-14700HX
-# CPU Frequency      : 800.246 MHz
+# CPU Frequency      : 800.243 MHz
 # CPU Physical cores : 20
 # CPU Logical cores  : 28
-# Host memory        : 33339 MB
+# Host memory        : 33338 MB
 # Swap memory        : 78350 MB
-# Total Virtual      : 111690 MB
-# Available Virtual  : 74327 MB
+# Total Virtual      : 111688 MB
+# Available Virtual  : 91345 MB
 #-----------------------------------------------------------
-source TP2_wrapper.tcl -notrace
+source TP3_wrapper.tcl -notrace

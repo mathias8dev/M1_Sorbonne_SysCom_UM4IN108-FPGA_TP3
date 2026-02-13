@@ -7,4 +7,4 @@
 # Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 #
 
-vivado -log TP2_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TP2_wrapper.tcl
+vivado -log TP3_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TP3_wrapper.tcl
